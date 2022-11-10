@@ -1,0 +1,40 @@
+.post{
+    background: white;
+}
+div{
+    box-sizing: border-box;
+}
+img{
+    margin:0;
+    width: 100%;
+}
+.post-header-1{
+    display: flex;
+}
+.post-header-1 div:first-child{
+    padding: 20px 5px 30px 30px;
+}
+.post-header-1 div:last-child{
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    text-align: right;
+}
+
+.post-header-2{
+    display: flex;
+}
+.post-header-2 div:last-child{
+    display: inline-block;
+    width: 100%;
+    padding: 5px; 
+    text-align: right;
+}
+.post-header-2 div:nth-child(-n+3){
+   padding: 5px; 
+}
+.p-comment{
+    text-align: justify;
+}
+.font_size{
+    font-size: 2rem;
+}
